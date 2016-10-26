@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-async-to-generator",
+    "transform-class-properties",
+    "transform-es2015-destructuring",
+    "transform-object-rest-spread",
+    [
+      "antd",
+      {
+        "style": "css",
+      },
+    ],
+  ],
+  "presets": ["es2015", "react"]
+}

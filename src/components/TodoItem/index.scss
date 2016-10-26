@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 3px 0;
+  width: 600px;
+  input {
+    &:focus {
+      outline: none;
+    }
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    flex: 1;
+  }
+  .controls {
+    width: 150px;
+    button {
+      cursor: pointer;
+      margin-left: 10px;
+      font-size: 20px;
+      outline: none;
+      background: none;
+      padding: 10px;
+      border: 1px solid #ccc;
+      letter-spacing: 2;
+    }
+  }
+}
